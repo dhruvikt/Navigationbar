@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "navigation-bar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/navigationBar/NavigationBarApplicationCustomizer.js",
+          "manifest": "./src/extensions/navigationBar/NavigationBarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NavigationBarApplicationCustomizerStrings": "lib/extensions/navigationBar/loc/{locale}.js"
+  }
+}

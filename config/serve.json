@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dna136.sharepoint.com/sites/Test/SitePages/Home.aspx",
+      "customActions": {
+        "3bbef379-a9ea-4515-845c-54d83f504548": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "navigationBar": {
+      "pageUrl": "https://dna136.sharepoint.com/sites/Test/SitePages/Home.aspx",
+      "customActions": {
+        "3bbef379-a9ea-4515-845c-54d83f504548": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
